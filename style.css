@@ -1,0 +1,34 @@
+.map {
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	border: 1px black solid;
+	width: 390px;
+	height: 390px;
+	display: flex;
+}
+
+#divTitre p{
+	font-size: 2.5em;
+	color: brown;
+	text-align: center;
+}
+
+#divResetMap p{
+	text-align: center;
+}
+
+
+.case {
+	height: 130px;
+	width: 130px;
+	z-index: 10;
+}
+
+.pair {
+	background-color: brown;
+}
+
+.impair {
+	background-color: aliceblue;
+}
