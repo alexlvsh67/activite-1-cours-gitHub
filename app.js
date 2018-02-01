@@ -36,7 +36,24 @@ $(function () {
 			}
 		}
 		
-		i++
+		
+		
+
+
+
+
+
+		i++;
+
+		// Je fait jouer l'ordinateur 1 coup sur 2 avec un delai de 0.8 secondes pour plus de réalisme
+		if (i == 1 || i == 3 || i == 5 || i == 7) {
+
+			function iaSimpliste() {
+				random = Math.floor(Math.random() * libre.length);
+				$("#" + libre[random]).trigger("click")
+			}
+			setTimeout(iaSimpliste, 800);
+		}
 
 	});
 
